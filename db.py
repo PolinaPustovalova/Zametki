@@ -5,7 +5,7 @@ def create_databases() -> None:
     conn = psycopg2.connect(
         dbname="zametki",
         user="postgres",
-        password="456654",
+        password="",
         port=5432,
         host="localhost"
     )
@@ -27,7 +27,7 @@ def save_data(note_id: int, note: str):
     conn = psycopg2.connect(
         dbname="zametki",
         user="postgres",
-        password="456654",
+        password="",
         port=5432,
         host="localhost"
     )
@@ -43,7 +43,7 @@ def show_notes_from_db()->list:
     conn = psycopg2.connect(
         dbname="zametki",
         user="postgres",
-        password="456654",
+        password="",
         port=5432,
         host="localhost"
     )
@@ -63,7 +63,7 @@ def delete_note_from_db(note_id: int):
     conn = psycopg2.connect(
         dbname="zametki",
         user="postgres",
-        password="456654",
+        password="",
         port=5432,
         host="localhost"
     )
