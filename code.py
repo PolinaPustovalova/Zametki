@@ -2,7 +2,7 @@ import random
 import telebot
 from db import show_notes_from_db, save_data, delete_note_from_db
 
-API_TOKEN = "6815886462:AAEDGZykTdcchF7gwp6qWEzJJT0xBY-4YTQ"
+API_TOKEN = ""
 bot = telebot.TeleBot(API_TOKEN)
 
 
